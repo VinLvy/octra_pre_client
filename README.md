@@ -1,6 +1,6 @@
 # octra terminal client
 
-a terminal wallet reminiscent of dos-era tui interfaces — but built with modern asynchronous architecture
+A terminal wallet reminiscent of dos-era tui interfaces — but built with modern asynchronous architecture
 
 ## what it does
 
@@ -30,7 +30,7 @@ a terminal wallet reminiscent of dos-era tui interfaces — but built with moder
 git clone https://github.com/octra-labs/octra_pre_client.git
 cd octra_pre_client
 python3 -m venv venv
-source venv/bin/activate # for windows use: venv\Scripts\activate
+source venv/bin/activate  # for windows use: venv\Scripts\activate
 pip install -r requirements.txt
 cp wallet.json.example wallet.json
 ```
@@ -49,5 +49,5 @@ cp wallet.json.example wallet.json
 
 ```bash
 ./run.sh       # on linux/mac
-run.bat        # on windows
+./run.bat        # on windows
 ```
